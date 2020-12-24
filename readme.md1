@@ -1,0 +1,29 @@
+## TODO List is a simple example Laravel 5.3 & Vue.js 2
+
+### Task for this project
+1. Build a todo list feature using Laravel >= version 5.3 and Vue.js >= version 1.
+2. Features: list items, add new item, delete item, check/uncheck item as completed. There's no need to allow for editing an item, but you may add if you'd like.
+3. Use Mysql/Maria for the DB.
+4. No fancy HTML/CSS is necessary. Just make sure the interface is easy to understand and is somewhat presentable.
+5. The repo should be made available so we can clone it and run it. Include a README.md with any info we need to get it up and running (e.g. how to compile assets, anything to know about the DB, etc...).
+6. The most important things we're looking for are: (a) the use of Vue.js components and how they interact with each other (b) Clean, simple, and reusable PHP code (c) showing us that you're comfortable, familiar, and experienced with the Laravel framework (i.e. by using what it has to offer to make your job easier) (d) good communication in the README.md1
+
+
+### Server Requirements
+1. PHP 7.2
+2. Node 11
+3. Composer
+
+Details see on https://laravel.com/docs/5.3/installation
+
+###For deploy
+1. Clone project from git repositories
+2. Setup environments in .env file:
+ - Generate key (<em>php artisan key:generate</em>)
+ - setup DB connection (DB_HOST,DB_DATABASE,DB_USERNAME, DB_PASSWORD)
+ - set your real domain (APP_URL)
+3. Run <em>composer install</em>
+4. Run <em>php artisan migrate</em> for install DB tables
+5. Run <em>npm install</em>
+6. For build <em>npm run dev</em> or <em>npm run prod</em>
+7. Start your server and load main page (example http://domaine.com)
